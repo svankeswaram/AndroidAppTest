@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="432.006655">
+<testcase classname="Check UI pages" name="Home Page UI Test" time="28.385399">
+<system-out><![CDATA[Given open home page........................................................passed
+When all the links are present..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check UI pages" name="Manage Opportunity Page UI Checks" time="21.513918">
+<system-out><![CDATA[Given manage opportunities page is available................................passed
+Then check UI objects in manage opportunities page..........................passed
+And check opportunities search results table................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check UI pages" name="Add Opportunity Page UI Test" time="25.729389">
+<system-out><![CDATA[Given open add opportunity page.............................................passed
+Then check objects in add opportunity page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check UI pages" name="Project Search Page UI Test" time="19.594258">
+<system-out><![CDATA[Given open project search page..............................................passed
+Then check objects in project search page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check UI pages" name="My TimeSheets Page UI Test" time="28.469505">
+<failure message="org.junit.ComparisonFailure: expected:&lt;My Timesheet[s] | CPTDuo&gt; but was:&lt;My Timesheet[] | CPTDuo&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.te.gui.MyTimeSheetsPage.openMyTimeSheetPage(MyTimeSheetsPage.java:43)&#13;&#10;&#9;at ✽.Given open my time sheet page(01-GUI-Checks.feature:27)&#13;&#10;"><![CDATA[Given open my time sheet page...............................................failed
+Then check objects in mytimesheets page.....................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<My Timesheet[s] | CPTDuo> but was:<My Timesheet[] | CPTDuo>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.te.gui.MyTimeSheetsPage.openMyTimeSheetPage(MyTimeSheetsPage.java:43)
+	at ✽.Given open my time sheet page(01-GUI-Checks.feature:27)
+]]></failure>
+</testcase>
+<testcase classname="Check UI pages" name="General Information Page UI Test" time="24.841026">
+<system-out><![CDATA[Given general information page for given project is available...............passed
+Then go to general information tab..........................................passed
+And check objects in general information page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check UI pages" name="Resources Page UI Test" time="45.338126">
+<system-out><![CDATA[Given resources page for given project is available.........................passed
+And click on the resources tab..............................................passed
+Then check the resources page...............................................passed
+And check resources table...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check UI pages" name="Finance Page UI Test" time="48.637572">
+<system-out><![CDATA[Given finance page for given project is available...........................passed
+And click on the finance tab................................................passed
+Then check the finance page.................................................passed
+And check finance table and finance category row............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check UI pages" name="Schedules Page UI Test" time="37.727613">
+<system-out><![CDATA[Given schedules page for given project is available.........................passed
+And click on the schedules tab..............................................passed
+Then check the schedules page...............................................passed
+And check schedules table...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Functionality" name="Project Search Page Functionality Test" time="151.769849">
+<system-out><![CDATA[Given project search page available.........................................passed
+And making sure test data is present........................................passed
+Then validate default search................................................passed
+And validate search with project number.....................................passed
+And validate search with project name.......................................passed
+And validate search with programmme id......................................passed
+And validate search with portfolio..........................................passed
+And validate search with center of excellence...............................passed
+And validate search with status.............................................passed
+And validate search with class..............................................passed
+And validate search with revenue group......................................passed
+And validate search with project manager....................................passed
+And validate search with opportunity champion...............................passed
+And validate search with customer...........................................passed
+And verify search results table header......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
