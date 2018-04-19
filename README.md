@@ -15,4 +15,5 @@ Precondition: Emulator should be started,
               
 Run the maven project from the eclipse
 
-Execution results screenshot and Exection record provided.
+Execution results screenshot available under Results Folder
+Recorded the video of execution. Since it is more than 25 MB (size 75MB) github rejected the checkin. If you want to have a look, i can upload to dropbox.
