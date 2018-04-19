@@ -6,6 +6,7 @@ Background:
 @BBCNews
 Scenario: Navigate Video from BBC New Home
 	Then I tap on Video Tab
+	And Verify the "BBC News Channel" text
 	Then I scroll down the screen
     And Verify the BBC copyright
     
@@ -16,3 +17,4 @@ Scenario: Search for Article
 	Then Enter "tourism trade is under pressure" 
 	Then I click on the article
     And Verify the content "England"
+    Then Navigate back to Home page
