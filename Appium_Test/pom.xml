@@ -20,8 +20,7 @@
 		<findbugs-maven-plugin.version>3.0.1</findbugs-maven-plugin.version>
 		<maven-project-info-reports-plugin.version>2.7</maven-project-info-reports-plugin.version>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> 
-		<artifactory.base.url>http://162.109.35.65:8081/artifactory</artifactory.base.url>
-		
+				
 		
 	</properties>
 
@@ -283,41 +282,6 @@
 			</plugin>
 		</plugins>
 	</reporting>
-
-
-
-	<repositories>
-		<repository>
-			<id>releases</id>
-			<url>${artifactory.base.url}/releases</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>snapshots</id>
-			<url>${artifactory.base.url}/snapshots</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>releases</id>
-			<url>${artifactory.base.url}/releases</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-		<pluginRepository>
-			<id>snapshots</id>
-			<url>${artifactory.base.url}/snapshots</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</pluginRepository>
-	</pluginRepositories>
-
+	
 
 </project>
